@@ -1259,5 +1259,838 @@ export const restaurantList = [
           "new": false
         },
         "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "335166",
+          "name": "Pabrai's Fresh and Naturelle Ice Creams",
+          "uuid": "790d1d71-7ad7-4fa9-96f8-a38c9d98d3a3",
+          "city": "57",
+          "area": "Jayadev Vihar",
+          "totalRatingsString": "20+ ratings",
+          "cloudinaryImageId": "crssweresnbltcuuhh7i",
+          "cuisines": [
+            "Ice Cream"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 30000,
+          "costForTwoString": "₹300 FOR TWO",
+          "deliveryTime": 14,
+          "minDeliveryTime": 14,
+          "maxDeliveryTime": 14,
+          "slaString": "14 MINS",
+          "lastMileTravel": 0.4000000059604645,
+          "slugs": {
+            "restaurant": "pabrai’s-fresh-&-naturelle-ice-creams-sahid-nagar-sahid-nagar",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "105 JAYADEV VIHAR NEAR AMUL STORE BHUBANESWAR 751013",
+          "locality": "Sriram Nagar",
+          "parentId": 692,
+          "unserviceable": false,
+          "veg": true,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "50% off",
+            "shortDescriptionList": [
+              {
+                "meta": "50% off | Use WELCOME50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "50% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use WELCOME50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "0.4 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "335166",
+            "deliveryTime": 14,
+            "minDeliveryTime": 14,
+            "maxDeliveryTime": 14,
+            "lastMileTravel": 0.4000000059604645,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.8",
+          "totalRatings": 20,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "82520",
+          "name": "Bhaina Hotel And Fast Food",
+          "uuid": "e3fc496b-0c1a-4e4a-9948-87548052bf2a",
+          "city": "57",
+          "area": "Unit 4",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "mejvlnqz6ux58juoyetq",
+          "cuisines": [
+            "Indian",
+            "Chinese",
+            "Biryani",
+            "Oriya"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 28,
+          "minDeliveryTime": 28,
+          "maxDeliveryTime": 28,
+          "slaString": "28 MINS",
+          "lastMileTravel": 3.5,
+          "slugs": {
+            "restaurant": "bhaina-hotel-and-fast-food-sahid-nagar-sahid-nagar",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "Unit 4  , in front of reliance fresh,Bhuma Nagar",
+          "locality": "AG Colony",
+          "parentId": 9838,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "60% off",
+            "shortDescriptionList": [
+              {
+                "meta": "60% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "60% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "3.5 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "82520",
+            "deliveryTime": 28,
+            "minDeliveryTime": 28,
+            "maxDeliveryTime": 28,
+            "lastMileTravel": 3.5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.8",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "74268",
+          "name": "GreenChillyz",
+          "uuid": "1960d243-a141-47de-a6e3-9483b2c1249e",
+          "city": "57",
+          "area": "Chandrasekharpur",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "og929rsdcbszbxf2djlx",
+          "cuisines": [
+            "Indian",
+            "Chinese",
+            "Biryani",
+            "Tandoor"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 24,
+          "minDeliveryTime": 24,
+          "maxDeliveryTime": 24,
+          "slaString": "24 MINS",
+          "lastMileTravel": 2.200000047683716,
+          "slugs": {
+            "restaurant": "green-chillyz-chandrasekharpur-central-tirupur-2",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "Plot 31/18. Kalinga Hospital Square. Chandrashekharpur",
+          "locality": "Nalco Nagar",
+          "parentId": 399293,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "60% off",
+            "shortDescriptionList": [
+              {
+                "meta": "60% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "60% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=5930510~p=13~eid=00000186-5492-c076-07eb-a97f00c60d15",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "2.2 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "74268",
+            "deliveryTime": 24,
+            "minDeliveryTime": 24,
+            "maxDeliveryTime": 24,
+            "lastMileTravel": 2.200000047683716,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.1",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "486363",
+          "name": "Myfroyoland",
+          "uuid": "bd32d693-2624-4ceb-9e6c-5fecb8755776",
+          "city": "57",
+          "area": "Jayadev Vihar",
+          "totalRatingsString": "Too Few Ratings",
+          "cloudinaryImageId": "sh9jwbuki80d8l9phwmp",
+          "cuisines": [
+            "Ice Cream",
+            "Desserts",
+            "Snacks"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 40000,
+          "costForTwoString": "₹400 FOR TWO",
+          "deliveryTime": 32,
+          "minDeliveryTime": 32,
+          "maxDeliveryTime": 32,
+          "slaString": "32 MINS",
+          "lastMileTravel": 0.4000000059604645,
+          "slugs": {
+            "restaurant": "myfroyoland-sahid-nagar-sahid-nagar",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "Ground Floor, The Pal Heights Mall, Nandankanan Rd, Jayadev Vihar, Bhubaneswar, Odisha 751014",
+          "locality": "The Pal Heights Mall",
+          "parentId": 4852,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off | Use code PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off | Use code PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "0.4 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "486363",
+            "deliveryTime": 32,
+            "minDeliveryTime": 32,
+            "maxDeliveryTime": 32,
+            "lastMileTravel": 0.4000000059604645,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "--",
+          "totalRatings": 0,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "163548",
+          "name": "House of Dum Biryani",
+          "uuid": "813425c2-ff07-466a-8889-174688c43f11",
+          "city": "57",
+          "area": "Jayadev Vihar",
+          "totalRatingsString": "500+ ratings",
+          "cloudinaryImageId": "spragztpspfaiqy7ynht",
+          "cuisines": [
+            "Biryani",
+            "Chinese",
+            "Indian"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 25000,
+          "costForTwoString": "₹250 FOR TWO",
+          "deliveryTime": 19,
+          "minDeliveryTime": 19,
+          "maxDeliveryTime": 19,
+          "slaString": "19 MINS",
+          "lastMileTravel": 1.7000000476837158,
+          "slugs": {
+            "restaurant": "madhuban-restaurant-jayadev-vihar",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "Plot N0- 256, N6, IRC Village, Jaydev Vihar, Bhubaneswar. 751013",
+          "locality": "Ekamra Kanana Road",
+          "parentId": 314963,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "30% off",
+            "shortDescriptionList": [
+              {
+                "meta": "30% off | Use JUMBO",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "30% off up to ₹150 on orders above ₹450 | Use code JUMBO",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "30% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use JUMBO",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "30% off up to ₹150 on orders above ₹450 | Use code JUMBO",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "1.7 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "163548",
+            "deliveryTime": 19,
+            "minDeliveryTime": 19,
+            "maxDeliveryTime": 19,
+            "lastMileTravel": 1.7000000476837158,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.4",
+          "totalRatings": 500,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "384024",
+          "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+          "uuid": "3b9802da-9b7f-4595-8ea9-e1c77984d484",
+          "city": "57",
+          "area": "Pandav Nagar",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "l3muzpxy1ivhufrkv8zb",
+          "cuisines": [
+            "Desserts",
+            "Ice Cream",
+            "Ice Cream Cakes"
+          ],
+          "tags": [
+            
+          ],
+          "costForTwo": 30000,
+          "costForTwoString": "₹300 FOR TWO",
+          "deliveryTime": 34,
+          "minDeliveryTime": 34,
+          "maxDeliveryTime": 34,
+          "slaString": "34 MINS",
+          "lastMileTravel": 7.300000190734863,
+          "slugs": {
+            "restaurant": "kwality-walls-frozen-dessert-and-ice-cream-shop-old-bbsr-old-bbsr-2",
+            "city": "bhubaneswar"
+          },
+          "cityState": "57",
+          "address": "MAA SANTOSHI ICE CREAM: BADAGADA,NEAR U.P SCHOOL, PODA SAHI, BADAGADA BRIT COLONY, BADAGADA BRIT COLONY(Pt.),WARD 57, BHUBANESWAR, ORISSA-751018",
+          "locality": "Badagada Village",
+          "parentId": 582,
+          "unserviceable": false,
+          "veg": true,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [
+            
+          ],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use SWIGGYIT",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 on select items | Use code SWIGGYIT",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use SWIGGYIT",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 on select items | Use code SWIGGYIT",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [
+            
+          ],
+          "feeDetails": {
+            "fees": [
+              
+            ],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=5934081~p=16~eid=00000186-5492-c076-07eb-a98000c61008",
+          "badges": {
+            "imageBased": [
+              
+            ],
+            "textBased": [
+              
+            ],
+            "textExtendedBadges": [
+              
+            ]
+          },
+          "lastMileTravelString": "7.3 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "384024",
+            "deliveryTime": 34,
+            "minDeliveryTime": 34,
+            "maxDeliveryTime": 34,
+            "lastMileTravel": 7.300000190734863,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.6",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
       }
 ]
