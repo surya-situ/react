@@ -2,10 +2,11 @@ import React,{useState, useEffect} from 'react';
 import '../App.css';
 import { restaurantList} from '../Config';
 import RestaurantCard from './RestaurantCard';
+import Shimmer from './Shimmer';
 
 // filtering data through search box:
-function filterData(searchText, restaurant) {
-    const filteringData =  restaurant.filter((restaurant) => restaurant.data.name.includes(searchText));
+function filterData(searchText, restaurantName) {
+    const filteringData =  restaurantName.filter((restaurantName) => restaurantName?.data?.name?.toLowerCase().includes(searchText.toLowerCase()));
 
     return filteringData;
 }
@@ -14,8 +15,12 @@ function filterData(searchText, restaurant) {
 
 const Body = () => {
 
-    // importing restaurant list data
-    const [restaurant, setRestaurant] = useState(restaurantList);
+    // all restaurant
+    const [allRestaurant, setAllRestaurant] = useState([]);
+
+    // filtered restaurant data list 
+    const [filteredRestaurant, setFilteredRestaurant] = useState([]);
+
     const [searchText, setSearchText] = useState('');
 
 
@@ -32,7 +37,11 @@ const Body = () => {
             const result = await data.json();
 
             // optional chancing
-            setRestaurant(result.data?.cards[2]?.data?.data?.cards);
+            // displaying all restaurants from api
+            setAllRestaurant(result.data?.cards[2]?.data?.data?.cards);
+
+            // 
+            setFilteredRestaurant(result.data?.cards[2]?.data?.data?.cards);
 
         } catch(error) {
             console.log('error in fetching')
@@ -40,7 +49,16 @@ const Body = () => {
        
     }
 
-    return (
+    // Early return
+    if(!allRestaurant) return null;
+
+    // if no restaurant is found
+    // if(filteredRestaurant.length === 0) return <p>no data found</p>
+
+
+
+    // for shimmer effect
+    return allRestaurant.length === 0 ? (<Shimmer />) : (
         <>
             {/* search container */}
             <div className="search-container">
@@ -56,11 +74,10 @@ const Body = () => {
                     onClick={() => 
                         {
                             // need to filter data
-                           const data =  filterData(searchText, restaurant);
+                           const data =  filterData(searchText, allRestaurant);
 
-                           setRestaurant(data)
-
-                            // update the state- restaurant
+                           //setting the filtered value to setFilteredRestaurant to display the restaurants
+                           setFilteredRestaurant(data)
                             
                             // setting input value to empty after button click
                             setSearchText('');
@@ -74,7 +91,7 @@ const Body = () => {
             <div className='body'>
                 {
 
-                    restaurant && restaurant.map((swiggyData) => {
+                    filteredRestaurant.map((swiggyData) => {
                         return(
                             <RestaurantCard key={swiggyData.data.id} {...swiggyData.data} />
                           
@@ -85,6 +102,7 @@ const Body = () => {
         </>
         
     )
+            
 }
 
 export default Body;
