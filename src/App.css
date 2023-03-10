@@ -46,6 +46,15 @@
     height: 270px;
 }
 
+.card-shimmer {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 15px;
+    height: 270px;
+    background-color: #f1eeee;
+}
+
 .card > img {
     width: 100%;
 }
@@ -53,4 +62,12 @@
 .card > p {
     margin: 5px 0;
     font-size: 15px;
+}
+
+.menu {
+    display: flex;
+}
+.menu-img {
+    height: 10%;
+    width: 20%;
 }
