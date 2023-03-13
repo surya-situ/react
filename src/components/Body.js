@@ -4,6 +4,8 @@ import { restaurantList} from '../Config';
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
 
+import {Link} from 'react-router-dom';
+
 // filtering data through search box:
 function filterData(searchText, restaurantName) {
     const filteringData =  restaurantName.filter((restaurantName) => restaurantName?.data?.name?.toLowerCase().includes(searchText.toLowerCase()));
@@ -93,7 +95,9 @@ const Body = () => {
 
                     filteredRestaurant.map((swiggyData) => {
                         return(
-                            <RestaurantCard key={swiggyData.data.id} {...swiggyData.data} />
+                            <Link to={'/restaurant/' + swiggyData.data.id} key={swiggyData.data.id}>
+                                <RestaurantCard {...swiggyData.data} />
+                            </Link>
                           
                         )
                     })
