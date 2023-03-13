@@ -8,9 +8,17 @@ class Profile extends React.Component {
         this.state = {
             count: 0,
         }
+
+        console.log('child constructor');
+    }
+
+    componentDidMount() {
+        // api call
+        console.log('child ComponentDidMount')
     }
 
     render(){
+        console.log('child render');
         return (
             <div>
 
@@ -19,7 +27,9 @@ class Profile extends React.Component {
                 <p>Count: {this.state.count}</p>
 
                 <button onClick={() => {
-                    this.setState
+                    this.setState( {
+                        count: 1
+                    })
                 }}></button>
             </div>
 
