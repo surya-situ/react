@@ -1,17 +1,26 @@
 import React,{useState, useEffect} from 'react';
-import '../App.css';
 import { restaurantList} from '../Config';
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
 
 import {Link} from 'react-router-dom';
 
-// filtering data through search box:
+import useOnline from '../utils/useOnline';
+
+// importing it form utils to use it anywhere
+import { filterData } from '../utils/Helper';
+
+
+/** 
+ * ? filtering data through search box:
+* ? importing the whole function {⬇️} form utils to reuse anywhere.
 function filterData(searchText, restaurantName) {
     const filteringData =  restaurantName.filter((restaurantName) => restaurantName?.data?.name?.toLowerCase().includes(searchText.toLowerCase()));
 
     return filteringData;
-}
+} 
+
+**/
 
 
 
@@ -51,29 +60,32 @@ const Body = () => {
        
     }
 
+    // offline function
+    // const isOnline = useOnline();
+    // if(!isOnline) {
+    //     return <h1>Offline, please check the internet connection</h1>
+    // }
+
+
     // Early return
     if(!allRestaurant) return null;
-
-    // if no restaurant is found
-    // if(filteredRestaurant.length === 0) return <p>no data found</p>
-
-
 
     // for shimmer effect
     return allRestaurant.length === 0 ? (<Shimmer />) : (
         <>
             {/* search container */}
-            <div className="search-container">
+            <div className="bg-pink-100 ">
                 <input 
                     type="text" 
-                    className='search-input' 
+                    className='mx-4 my-4' 
                     placeholder='search' 
                     value= {searchText}
                     onChange={(event) => {setSearchText(event.target.value)}}
                 />
                 <button 
-                    className='search-btn' 
+                    className='bg-green-200 px-2 rounded-md hover:bg-green-400' 
                     onClick={() => 
+
                         {
                             // need to filter data
                            const data =  filterData(searchText, allRestaurant);
@@ -90,7 +102,7 @@ const Body = () => {
             </div>
 
             {/* body */}
-            <div className='body'>
+            <div className='flex flex-wrap items-center content-center'>
                 {
 
                     filteredRestaurant.map((swiggyData) => {
