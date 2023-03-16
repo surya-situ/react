@@ -10,16 +10,16 @@ const Header = () => {
   const[loggedIn, setLoggedIn] = useState(true);
 
   return (
-    <div className='flex justify-between bg-red-50 sha'>
+    <div className='flex justify-between bg-red-50 sm:bg-blue-100 md:bg-yellow-100'>
         <Title />
 
         <div className='flex'>
             <ul className='flex px-10 py-8'>
 
-              <li className='px-3'><Link to='/'>Home</Link></li>
-              <li className='px-3'><Link to='/about'>About</Link></li>
-              <li className='px-3'> <Link to="/contact">Contact</Link></li>
-              <li className='px-3'> <Link to="/instamart">Instamart</Link></li>
+              <li className='px-3'> <Link to='/'>Home</Link> </li>
+              <li className='px-3'> <Link to='/about'>About</Link> </li>
+              <li className='px-3'> <Link to="/contact">Contact</Link> </li>
+              <li className='px-3'> <Link to="/instamart">Instamart</Link> </li>
               <li>Cart</li>
 
             </ul>
