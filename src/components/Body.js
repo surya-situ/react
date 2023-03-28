@@ -24,7 +24,7 @@ function filterData(searchText, restaurantName) {
 
 
 
-const Body = () => {
+const Body = ({user}) => {
 
     // all restaurant
     const [allRestaurant, setAllRestaurant] = useState([]);
@@ -108,7 +108,7 @@ const Body = () => {
                     filteredRestaurant.map((swiggyData) => {
                         return(
                             <Link to={'/restaurant/' + swiggyData.data.id} key={swiggyData.data.id}>
-                                <RestaurantCard {...swiggyData.data} />
+                                <RestaurantCard {...swiggyData.data} user={user}/>
                             </Link>
                           
                         )
