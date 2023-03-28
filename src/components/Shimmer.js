@@ -1,20 +1,10 @@
 import React from 'react';
-import '../App.css'
 
 const Shimmer = () => {
   return (
     <div className='body'>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
-      <div className='card'></div>
+
+      {Array(10).fill('').map((event, index) => (<div className='card-shimmer' key={index}></div> ))}
     
     </div>
   )
