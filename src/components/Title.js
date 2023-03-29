@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 import Logo from '../assets/img/food-logo.webp'
 
@@ -7,7 +6,7 @@ const Title = () => {
   return (
     <a>
         <img 
-            className= 'logo' 
+            className = 'h-20 px-2'
             
             src={Logo}
             alt="Restaurant logo" 
