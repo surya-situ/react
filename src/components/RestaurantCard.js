@@ -13,7 +13,7 @@ const RestaurantCard = ({name, cuisines, lastMileTravel, cloudinaryImageId}) => 
             <h3 className='font-bold text-l'>{name}</h3>
             <p>{cuisines.join(', ')}</p>
             <p>{Math.trunc(lastMileTravel)} km away from your home</p>
-            <span>{user.email}</span>
+            <span>{user.name}</span>
         </div>
     )
 }
