@@ -4,6 +4,8 @@ import { IMG_CDN_URL } from '../Config';
 import Shimmer from './Shimmer';
 import useRestaurant from '../utils/useRestaurant';
 import useRestaurantMenu from '../utils/useRestaurantMenu';
+import { addItem } from '../utils/cartSlice';
+import { useDispatch } from 'react-redux';
 
 const RestaurantMenu = () => {
 
@@ -19,6 +21,20 @@ const RestaurantMenu = () => {
     const restaurantDetails = useRestaurant(id);
     //for all the menu and prices 
     const restaurantMenu= useRestaurantMenu(id);
+
+    //dispatch items using useDispatch hook
+    const dispatch = useDispatch();
+
+    //handling items:
+    // const handleAddItems = () => {
+        //addItem from utils.cartSlice
+    //     dispatch(addItem('grapes'))
+    // }
+
+    //add food item
+    const addFoodItem = (items) => {
+        dispatch(addItem(items))
+    }
 
     /**
      *  ? imported all {⬇️} the code form useRestaurant.js 
@@ -45,7 +61,7 @@ const RestaurantMenu = () => {
      **/
 
   return !restaurantDetails ? (<Shimmer />) : (
-    <div className='menu'>
+    <div className='menu'> 
         <p>Restaurant id: {id}</p>
         <p>{restaurantDetails?.areaName}</p>
         <p>{restaurantDetails?.name}</p>
@@ -56,14 +72,34 @@ const RestaurantMenu = () => {
         <p>{restaurantDetails.city}</p>
         <p>{restaurantDetails.costForTwoMsg}</p>
         <p>{restaurantDetails.avgRating}</p>
-        <div>
 
+        <div>
+            {/* <button onClick={handleAddItems}>addItems</button> */}
+        </div>
+        <div>
             <h1 className='font-bold'>menu</h1>
             <ul>
                 {
                     // option chaining 
-                    Object.values(restaurantMenu ?? {}).map((item, index) => 
-                        ( <li key={index}>{item.card.info.name} : {item.card.info.price /100} rupees</li> )
+                    Object.values(restaurantMenu ?? {}).map((foodItem, index) => 
+                        {
+
+                            const itemName = foodItem.card.info.name;
+                            const itemPrice = foodItem.card.info.price;
+                            const itemImage = foodItem.card.info.imageId;
+                            
+                            return ( 
+                                
+                                <li className='py-3' key={index} >
+                                    {itemName} - {itemPrice /100} rupees - 
+                                        <button 
+                                            className='p-2 text-[15px] border border-black bg-green-400' 
+                                            onClick={() => addFoodItem(foodItem)}
+                                        >add to cart
+                                    </button> 
+                                </li> 
+                            )
+                        }
                     )
                 }
             </ul>
