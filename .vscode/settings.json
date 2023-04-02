@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "namaste-react"
+    "liveServer.settings.multiRootWorkspaceName": "namaste-react",
+    "cSpell.words": [
+        "instamart",
+        "reduxjs"
+    ]
 }
